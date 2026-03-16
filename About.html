@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | AutoElite Dealership</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css"> <style>
+        .team-card {
+            border: none;
+            transition: transform 0.3s;
+        }
+        .team-card:hover {
+            transform: translateY(-10px);
+        }
+        .team-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin: 20px auto;
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=1200');
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Driving Excellence Since 1998</h1>
+            <p class="lead">At AutoElite, we don't just sell cars; we build relationships that last a lifetime.</p>
+        </div>
+    </header>
+
+    <section class="container my-5 py-4">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2>Our Mission</h2>
+                <p>AutoElite Dealership was founded on the principles of transparency and integrity. We aim to provide the most seamless car-buying experience in the industry, backed by cutting-edge technology and a passion for automotive performance.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=600" alt="Showroom" class="img-fluid rounded shadow">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h2 class="mb-5">Meet Our Leadership Team</h2>
+            <div class="row g-4">
+                
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm team-card">
+                        <img src="https://i.pravatar.cc/150?u=ceo" class="card-img-top team-img" alt="CEO">
+                        <div class="card-body">
+                            <h5 class="card-title">Marcus Sterling</h5>
+                            <p class="text-primary fw-bold">Chief Executive Officer</p>
+                            <p class="card-text small">Marcus has 25 years of experience in the luxury automotive market and believes in a "customer-first" approach.</p>
+                            <a href="mailto:m.sterling@autoelite.io" class="btn btn-outline-dark btn-sm">Contact Marcus</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm team-card">
+                        <img src="https://i.pravatar.cc/150?u=sales" class="card-img-top team-img" alt="Sales Director">
+                        <div class="card-body">
+                            <h5 class="card-title">Elena Rodriguez</h5>
+                            <p class="text-primary fw-bold">Director of Sales</p>
+                            <p class="card-text small">Elena specializes in fleet management and personalized financing solutions for our VIP clientele.</p>
+                            <a href="mailto:e.rodriguez@autoelite.io" class="btn btn-outline-dark btn-sm">Contact Elena</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm team-card">
+                        <img src="https://i.pravatar.cc/150?u=tech" class="card-img-top team-img" alt="Service Head">
+                        <div class="card-body">
+                            <h5 class="card-title">Jordan Vance</h5>
+                            <p class="text-primary fw-bold">Head of Technical Service</p>
+                            <p class="card-text small">Jordan leads our certified technicians, ensuring every vehicle meets our rigorous 150-point inspection.</p>
+                            <a href="mailto:j.vance@autoelite.io" class="btn btn-outline-dark btn-sm">Contact Jordan</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4 border-top">
+        <p>&copy; 2026 AutoElite Dealership. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
